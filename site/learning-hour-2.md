@@ -83,6 +83,7 @@ reflect on the learning experience and draw conclusions.
 
 - [Learning Hour] — the Samman format this session follows
 - [Concept Explanation] — the full checklist and worked example
+- [Miro board](https://miro.com/app/board/uXjVHl2sd10=/) — facilitation deck and your pair's frame
 - [Learning Hour 1](learning-hour-1.html) — last week: writing the test list this session implements
 - [Samman Coaching] — [Connect Activities] · [Concept Activities] · [Concrete Practice Activities] · [Conclusions Activities]
 

@@ -37,6 +37,7 @@ It runs across **two weekly sessions** built around the same kata:
 
 - [Learning Hour] — the Samman format both sessions follow
 - [Concept Explanation] — the full test list checklist and a worked example
+- [Miro board](https://miro.com/app/board/uXjVHl2sd10=/) — the facilitation deck and both weeks' team frames
 
 [Learning Hour]: https://sammancoaching.org/reference/learning_hour_definition.html
 [Concept Explanation]: explanation/concept-explanation.html
