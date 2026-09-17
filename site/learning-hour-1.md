@@ -16,13 +16,13 @@ Week 1 of the "100 doors" pair: produce a test list for the kata — no implemen
 1. TOC
 {:toc}
 
-## Learning Goals 🎯
+## Learning Goals 🎯 (⏱️ 2 min)
 
 - Understand what a test list is and why writing one before coding helps clarify the problem
 - Know the checklist for a well-formed test list item (clear input/output, an explicit rule, easy to turn into code)
 - Practice writing and revising a test list on the "100 doors" kata, and cross-check it against the checklist
 
-## Connect activity to get everyone thinking about the topic (⏱️ 10 min)
+## Connect activity to get everyone thinking about the topic (⏱️ 5 min)
 
 **Warm-up.** Before opening a laptop: guess, just from reading the kata statement, roughly how many of the 100
 doors end up open. Don't compute it — trade guesses and the intuition behind them with your pair.
@@ -30,24 +30,24 @@ doors end up open. Don't compute it — trade guesses and the intuition behind t
 See [Connect Activities] in the [Samman Coaching] website for more ideas on how to connect with your team and
 introduce the topic of this Learning Hour.
 
-## An explanation of a new Concept or a coding demo (⏱️ 15 min)
+## An explanation of a new Concept or a coding demo (⏱️ 8 min)
 
-**Why write a test list?** It clarifies the problem, groups and categorizes cases, surfaces edge cases, gives you
-clear names for test classes and methods up front, doubles as a completion criterion for TDD, and builds shared
-understanding when pairing or ensembling.
+**Why write a test list? (⏱️ 2 min)** It clarifies the problem, groups and categorizes cases, surfaces edge cases,
+gives you clear names for test classes and methods up front, doubles as a completion criterion for TDD, and builds
+shared understanding when pairing or ensembling.
 
-**Test lists + AI agents.** The same reasoning applies, even more so, when an AI coding agent is doing the typing.
-A one-shot prompt hides which cases the agent actually covered — a wrong assumption early on quietly corrupts
-everything built on top of it. Writing the test list first means scope is agreed *before* code exists, and feeding
-the agent one item at a time gives you a checkpoint after each one, so a wrong turn gets caught early rather than
-after the whole thing is built. See [Claude Code Best Practices] and [Coding assistants do not replace pair
-programming] for more on why an incremental, reviewed workflow beats letting an agent run ahead unsupervised.
+**Test lists + AI agents. (⏱️ 2 min)** The same reasoning applies, even more so, when an AI coding agent is doing
+the typing. A one-shot prompt hides which cases the agent actually covered — a wrong assumption early on quietly
+corrupts everything built on top of it. Writing the test list first means scope is agreed *before* code exists,
+and feeding the agent one item at a time gives you a checkpoint after each one, so a wrong turn gets caught early
+rather than after the whole thing is built. See [Claude Code Best Practices] and [Coding assistants do not replace
+pair programming] for more on why an incremental, reviewed workflow beats letting an agent run ahead unsupervised.
 
-See [Concept Explanation] for the full checklist and a worked example (prime numbers), and the
-[Concept Activities] in the [Samman Coaching] website for more ideas on how to introduce a new Concept or do a
-coding demo.
+**Checklist (⏱️ 2 min)** and **Example: leap year (⏱️ 2 min)** are covered on their own slides — see
+[Concept Explanation] for the full checklist and worked example, and the [Concept Activities] in the
+[Samman Coaching] website for more ideas on how to introduce a new Concept or do a coding demo.
 
-## Concrete Practice in a coding exercise (⏱️ 45 min)
+## Concrete Practice in a coding exercise (⏱️ 30 min)
 
 - Write a test list for the [100 doors kata](index.html#the-kata-100-doors) — do **not** implement anything yet
 - Cross-check your list against the checklist in [Concept Explanation]
@@ -67,17 +67,20 @@ right," push them to write down *why* rather than reaching for the editor.
 See [Concrete Practice Activities] in the [Samman Coaching] website for more ideas on how to design a coding
 exercise to practice the new Concept.
 
-## Conclusions discussion and reflection (⏱️ 20 min)
+## Conclusions discussion and reflection (⏱️ 2 min)
 
 - How close was your warm-up guess to what your test list implies?
-- Did you converge on enumerated cases, the general rule, or a mix of both?
-- Remember: a test list is a conjecture, not a full spec — the code is the proof
 - What would make your list easy for *another* pair to implement from, next week, without asking you questions?
+- Which item on your list are you least confident about, and what would it take to make it more precise?
+- If another pair picked up your list next week with zero context, would they land on the same tests you would?
 
 **Themes to listen for:** the warm-up guess is often wrong in an interesting way — that gap is exactly what the
 test list should later explain; groups that name the general rule early still needed concrete boundary cases to
 trust it; a list is only as reusable as it is self-explanatory — an item like "door 36 is open" is weaker than
 "door 36 is open, because 36 is a perfect square."
+
+**Your take-aways (⏱️ 5 min).** Add one light-yellow sticky per person to the take-aways area on the Miro board
+with your key takeaway from the session.
 
 See [Conclusions Activities] in the [Samman Coaching] website for more ideas on how to facilitate a discussion to
 reflect on the learning experience and draw conclusions.

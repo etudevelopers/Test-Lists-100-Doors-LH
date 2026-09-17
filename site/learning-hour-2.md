@@ -10,6 +10,9 @@ nav_order: 3
 Week 2 of the "100 doors" pair: recap the test list from [Learning Hour 1](learning-hour-1.html) and implement it.
 {: .fs-6 .fw-300 }
 
+> 🚧 **Work in progress.** This session's agenda, timings, and Miro slides haven't been finalized yet — content
+> below is a draft and subject to change before week 2.
+
 ## Table of Contents
 {: .no_toc .text-delta }
 
