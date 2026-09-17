@@ -69,6 +69,8 @@ Question: what state are the doors in after the last pass? Which are open, which
 - Write a test list for this kata — do not implement anything yet
 - Cross-check your list against the Checklist
 
+*(footer link)* Finished early? Review what you worked through in the previous Learning Hour: [previous Learning Hour board](https://miro.com/app/board/uXjVH07M1TQ=/?share_link_id=561303950340)
+
 ## Wrap up (2 min)
 
 - How close was your warm-up guess to what your test list implies?

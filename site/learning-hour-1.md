@@ -53,6 +53,8 @@ pair programming] for more on why an incremental, reviewed workflow beats lettin
 - Cross-check your list against the checklist in [Concept Explanation]
 - Keep the list somewhere your pair (or a different pair) can pick it up unmodified next week
 
+**Finished early?** Review what you worked through in the [previous Learning Hour board](https://miro.com/app/board/uXjVH07M1TQ=/?share_link_id=561303950340).
+
 **Facilitator notes.** The rule is stated explicitly in the prompt, so groups rarely get stuck on *what* the code
 should do — the richer conversation is in *how to structure the list*. Expect groups to gravitate toward one of
 two shapes: enumerating small, concrete cases (door 1 after 1 pass, door 2 after 2 passes, ...) versus stating the
