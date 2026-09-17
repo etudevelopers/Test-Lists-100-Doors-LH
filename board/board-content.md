@@ -49,16 +49,16 @@ A good test list item has:
 - A shape that's easy to translate into code
 - Only the fundamentals — a test list is not a full spec (the list is a conjecture, the code is the proof)
 
-## Example: prime numbers
+## Example: leap year
 
-A prime number is a natural number with exactly two distinct, positive divisors.
+Rule: a year is a leap year if divisible by 4, except centuries, which must be divisible by 400.
 
-- 1 is not prime — it has only one distinct divisor
-- 2 is prime — 1 × 2
-- 4 is not prime — it has more than two divisors
-- 0 is not prime — it isn't a natural number (edge case)
+- input: 2024 → output: leap (divisible by 4, not a century)
+- input: 2023 → output: not leap (not divisible by 4)
+- input: 1900 → output: not leap (a century, but not divisible by 400)
+- input: 2000 → output: leap (a century, divisible by 400 — edge case)
 
-New examples are easy to generate once the rule is explicit — that's the point of writing the rule down next to the case, not just the numbers.
+Each row is a clear input/output pair, next to the rule that explains it — that's what makes new examples easy to generate.
 
 ## Practice
 
