@@ -9,19 +9,19 @@ Verbatim transcription of the Miro board content, captured via the Miro MCP.
 **Test Lists**
 100 doors — Learning hour
 
-## Learning Goals
+## Learning Goals (2 min)
 
 - Understand what a test list is and why writing one before coding helps clarify the problem
 - Know the checklist for a well-formed test list item (clear input/output, an explicit rule, easy to turn into code)
 - Practice writing and revising a test list on the 100 doors kata, and cross-check it against the checklist
 
-## Warm up
+## Warm up (5 min)
 
 Before opening a laptop: guess, just from reading the kata statement, roughly how many of the 100 doors end up open.
 
 Don't compute it — trade guesses and the intuition behind them with your pair.
 
-## Why write a test list?
+## Why write a test list? (2 min)
 
 - Clarifies the problem before you start coding
 - Groups and categorizes the cases you'll need
@@ -30,7 +30,7 @@ Don't compute it — trade guesses and the intuition behind them with your pair.
 - Doubles as a completion criterion for TDD — you're done when the list is covered
 - Builds shared understanding when pairing or ensembling
 
-## Test lists + AI agents
+## Test lists + AI agents (2 min)
 
 The same reasoning applies, even more so, when an AI coding agent is doing the typing.
 
@@ -40,7 +40,7 @@ Writing the test list first means scope is agreed before code exists, and feedin
 
 [Claude Code Best Practices](https://code.claude.com/docs/en/best-practices) · [Coding assistants do not replace pair programming](https://martinfowler.com/articles/exploring-gen-ai/05-not-your-pair-programmer.html)
 
-## Checklist
+## Checklist (2 min)
 
 A good test list item has:
 
@@ -49,7 +49,7 @@ A good test list item has:
 - A shape that's easy to translate into code
 - Only the fundamentals — a test list is not a full spec (the list is a conjecture, the code is the proof)
 
-## Example: leap year
+## Example: leap year (2 min)
 
 Rule: a year is a leap year if divisible by 4, except centuries, which must be divisible by 400.
 
@@ -60,7 +60,7 @@ Rule: a year is a leap year if divisible by 4, except centuries, which must be d
 
 Each row is a clear input/output pair, next to the rule that explains it — that's what makes new examples easy to generate.
 
-## Practice
+## Practice (30 min)
 
 **100 doors.** 100 doors in a row are all initially closed. You make 100 passes by the doors. The first time through, you visit every door and toggle it. The second time you only visit every 2nd door. The third time, every 3rd door, etc, until you only visit the 100th door.
 
@@ -69,12 +69,12 @@ Question: what state are the doors in after the last pass? Which are open, which
 - Write a test list for this kata — do not implement anything yet
 - Cross-check your list against the Checklist
 
-## Wrap up
+## Wrap up (2 min)
 
 - How close was your warm-up guess to what your test list implies?
-- Did you converge on enumerated cases, the general rule, or a mix of both?
-- Remember: a test list is a conjecture, not a full spec — the code is the proof
 - What would make your list easy for another pair to implement from, next week, without asking you questions?
+- Which item on your list are you least confident about, and what would it take to make it more precise?
+- If another pair picked up your list next week with zero context, would they land on the same tests you would?
 
 ## Team frames (x4)
 
@@ -85,6 +85,6 @@ Each of the 4 "Team member 1, Team member 2" frames holds:
 
 *(caption)* Drop your test list stickies below — with an empty working area below it for each pair's stickies.
 
-## Your take-aways
+## Your take-aways (5 min)
 
 *(caption)* Add one light-yellow sticky per person with your key takeaway — with an empty working area for stickies.
