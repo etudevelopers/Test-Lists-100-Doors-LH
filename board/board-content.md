@@ -17,9 +17,9 @@ Verbatim transcription of the Miro board content, captured via the Miro MCP.
 
 ## Warm up (5 min)
 
-Think of a bug you once shipped that a more complete test list would have caught before you wrote any code.
+You've done a Test Lists Learning Hour before — before we get to the Checklist slide, try this from memory.
 
-In pairs, share what case you missed — and what would have made it easier to see up front.
+In pairs, write down as many items as you can recall from the "good test list item" checklist. Compare notes: how many did you get, and where did you disagree?
 
 ## Why write a test list? (2 min)
 
@@ -73,7 +73,7 @@ Question: what state are the doors in after the last pass? Which are open, which
 
 ## Wrap up (2 min)
 
-- Revisit the bug you shared in the warm-up — would today's test list have caught it?
+- Did applying the checklist today reveal anything about it that your warm-up recall missed?
 - What would make your list easy for another pair to implement from, next week, without asking you questions?
 - Which item on your list are you least confident about, and what would it take to make it more precise?
 - If another pair picked up your list next week with zero context, would they land on the same tests you would?

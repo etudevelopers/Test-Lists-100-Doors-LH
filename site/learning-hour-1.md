@@ -24,8 +24,9 @@ Week 1 of the "100 doors" pair: produce a test list for the kata — no implemen
 
 ## Connect activity to get everyone thinking about the topic (⏱️ 5 min)
 
-**Warm-up.** Think of a bug you once shipped that a more complete test list would have caught before you wrote
-any code. In pairs, share what case you missed — and what would have made it easier to see up front.
+**Warm-up.** You've done a Test Lists Learning Hour before — before we get to the Checklist slide, try this from
+memory. In pairs, write down as many items as you can recall from the "good test list item" checklist. Compare
+notes: how many did you get, and where did you disagree?
 
 See [Connect Activities] in the [Samman Coaching] website for more ideas on how to connect with your team and
 introduce the topic of this Learning Hour.
@@ -71,15 +72,15 @@ exercise to practice the new Concept.
 
 ## Conclusions discussion and reflection (⏱️ 2 min)
 
-- Revisit the bug you shared in the warm-up — would today's test list have caught it?
+- Did applying the checklist today reveal anything about it that your warm-up recall missed?
 - What would make your list easy for *another* pair to implement from, next week, without asking you questions?
 - Which item on your list are you least confident about, and what would it take to make it more precise?
 - If another pair picked up your list next week with zero context, would they land on the same tests you would?
 
-**Themes to listen for:** the warm-up bug is often the same *shape* of miss the group is about to make again —
-naming it early makes it easier to catch on this list; groups that name the general rule early still needed
-concrete boundary cases to trust it; a list is only as reusable as it is self-explanatory — an item like
-"door 36 is open" is weaker than "door 36 is open, because 36 is a perfect square."
+**Themes to listen for:** the checklist item people forget in the warm-up recall is often exactly the one they
+skip applying under time pressure — noticing that gap early is the point; groups that name the general rule early
+still needed concrete boundary cases to trust it; a list is only as reusable as it is self-explanatory — an item
+like "door 36 is open" is weaker than "door 36 is open, because 36 is a perfect square."
 
 **Your take-aways (⏱️ 5 min).** Add one light-yellow sticky per person to the take-aways area on the Miro board
 with your key takeaway from the session.
