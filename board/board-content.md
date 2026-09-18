@@ -17,9 +17,9 @@ Verbatim transcription of the Miro board content, captured via the Miro MCP.
 
 ## Warm up (5 min)
 
-Before opening a laptop: guess, just from reading the kata statement, roughly how many of the 100 doors end up open.
+Think of a bug you once shipped that a more complete test list would have caught before you wrote any code.
 
-Don't compute it — trade guesses and the intuition behind them with your pair.
+In pairs, share what case you missed — and what would have made it easier to see up front.
 
 ## Why write a test list? (2 min)
 
@@ -73,7 +73,7 @@ Question: what state are the doors in after the last pass? Which are open, which
 
 ## Wrap up (2 min)
 
-- How close was your warm-up guess to what your test list implies?
+- Revisit the bug you shared in the warm-up — would today's test list have caught it?
 - What would make your list easy for another pair to implement from, next week, without asking you questions?
 - Which item on your list are you least confident about, and what would it take to make it more precise?
 - If another pair picked up your list next week with zero context, would they land on the same tests you would?
