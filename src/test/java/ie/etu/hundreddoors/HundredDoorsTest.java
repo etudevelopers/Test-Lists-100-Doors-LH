@@ -24,4 +24,11 @@ class HundredDoorsTest {
 
         assertThat(door.isOpen()).isFalse();
     }
+
+    @Test
+    void all_100_doors_start_closed() {
+        Doors doors = new Doors(100);
+
+        assertThat(doors.states()).isEqualTo("c".repeat(100));
+    }
 }
