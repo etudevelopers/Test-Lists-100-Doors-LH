@@ -31,4 +31,13 @@ class HundredDoorsTest {
 
         assertThat(doors.states()).isEqualTo("c".repeat(100));
     }
+
+    @Test
+    void first_pass_opens_every_door() {
+        Doors doors = new Doors(4);
+
+        doors.pass(1);
+
+        assertThat(doors.states()).isEqualTo("oooo");
+    }
 }

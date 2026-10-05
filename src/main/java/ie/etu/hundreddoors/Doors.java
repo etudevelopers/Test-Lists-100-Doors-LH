@@ -12,6 +12,10 @@ class Doors {
         doors = Stream.generate(Door::new).limit(count).toList();
     }
 
+    void pass(int step) {
+        doors.forEach(Door::toggle);
+    }
+
     String states() {
         return doors.stream()
                 .map(door -> door.isOpen() ? "o" : "c")
