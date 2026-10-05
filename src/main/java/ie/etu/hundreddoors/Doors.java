@@ -13,7 +13,9 @@ class Doors {
     }
 
     void pass(int step) {
-        doors.forEach(Door::toggle);
+        for (int number = step; number <= doors.size(); number += step) {
+            doors.get(number - 1).toggle();
+        }
     }
 
     String states() {

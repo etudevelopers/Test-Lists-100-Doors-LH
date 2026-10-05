@@ -40,4 +40,14 @@ class HundredDoorsTest {
 
         assertThat(doors.states()).isEqualTo("oooo");
     }
+
+    @Test
+    void second_pass_toggles_every_second_door() {
+        Doors doors = new Doors(4);
+        doors.pass(1);
+
+        doors.pass(2);
+
+        assertThat(doors.states()).isEqualTo("ococ");
+    }
 }
