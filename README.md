@@ -10,11 +10,23 @@ This repository is generated from the [learning-hour-template] and includes:
   repository root. This license applies to all site documentation content
 - A [GitHub Actions workflow] in the `.github/workflows` folder to build and deploy the site to GitHub Pages
 - A Notice file for third-party attributions in the repository root
+- A minimal Java 17 / Maven project (`pom.xml`, `src/`) with JUnit 5 and AssertJ for implementing the kata
 
 ## Getting started
 
 1. Go to Settings > Pages > Build and deployment > Source, and select GitHub Actions to serve the `site` folder
 2. See [site/index.md](site/index.md) for the Learning Hour overview and links to both sessions
+
+## Implementing the kata
+
+The production package `ie.etu.hundreddoors` is empty on purpose, so the pair
+decides the shape of the solution while making their first test pass. Start from `HundredDoorsTest`.
+
+Requirements: Java 17 and Maven 3.9 (run `sdk env` if you use [SDKMAN!], see `.sdkmanrc`).
+
+```shell
+mvn test
+```
 
 ## GitHub Actions Workflows
 
@@ -55,6 +67,7 @@ terms of the respective licenses for the code and documentation.
 [learning-hour-template]: https://github.com/ibanFR/learning-hour-template
 [GitHub Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
 [Bundler]: https://bundler.io
+[SDKMAN!]: https://sdkman.io
 [MIT License]: https://en.wikipedia.org/wiki/MIT_License
 [starter workflows]: https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
 [actions/starter-workflows]: https://github.com/actions/starter-workflows/blob/main/LICENSE

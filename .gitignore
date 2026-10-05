@@ -1,2 +1,10 @@
-.idea/
-
+# Build output
+**/target/
+# IDE files
+**/.idea/
+*.iml
+.project
+.classpath
+.settings
+# macOS files
+**/.DS_Store
