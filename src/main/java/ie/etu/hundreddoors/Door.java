@@ -5,7 +5,7 @@ class Door {
     private boolean open;
 
     void toggle() {
-        open = true;
+        open = !open;
     }
 
     boolean isOpen() {

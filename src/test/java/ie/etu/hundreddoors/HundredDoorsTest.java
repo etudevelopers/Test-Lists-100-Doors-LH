@@ -14,4 +14,14 @@ class HundredDoorsTest {
 
         assertThat(door.isOpen()).isTrue();
     }
+
+    @Test
+    void toggling_an_open_door_closes_it() {
+        Door door = new Door();
+        door.toggle();
+
+        door.toggle();
+
+        assertThat(door.isOpen()).isFalse();
+    }
 }
